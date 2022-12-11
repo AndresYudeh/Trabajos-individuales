@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'services/mockapi.dart';
 
 void main() {
@@ -127,9 +126,9 @@ class _TareaAsyncState extends State<TareaAsync> {
                 onPressed: () async {
                   setState(() {
                     c_with = 300;
-                    c_time = 1;
+                    c_time = 3;
                   });
-                  c = await MockApi().getFerrariInteger();
+                  c = await MockApi().getHyundaiInteger();
                   setState(() {
                     c_text = c;
                     c_time = 0;
@@ -169,9 +168,9 @@ class _TareaAsyncState extends State<TareaAsync> {
                 onPressed: () async {
                   setState(() {
                     w_with = 300;
-                    w_time = 1;
+                    w_time = 10;
                   });
-                  w = await MockApi().getFerrariInteger();
+                  w = await MockApi().getFisherPriceInteger();
                   setState(() {
                     w_text = w;
                     w_time = 0;
