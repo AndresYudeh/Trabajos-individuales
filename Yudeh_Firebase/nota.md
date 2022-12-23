@@ -1,3 +1,5 @@
-** Estudiante: Branly Andres Yudeh Cedeño
-** Curso: Septimo A
-** Fecha: 23/10/2022
+**Alumno: B. Andres Yudeh Cedeño**
+
+**Curso: Septimo "A"**
+
+**Fecha: 21/10/2022**
